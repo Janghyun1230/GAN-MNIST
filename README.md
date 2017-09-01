@@ -18,10 +18,10 @@ generating mnist by GAN, lsGAN, wGAN, wGAN_GP
 
 ### main.py
 >set hyperparameters
-- input (batch size, latent space dimension)
-- network (layers)
-- object function (loss i.e. set GAN type)
-- optimizer (type, learning rate)
-- training configuration (how many times to train discriminator per generator, epoch)
-- else (save directory, device type)
+>- input (batch size, latent space dimension)
+>- network (layers)
+>- object function (loss i.e. set GAN type)
+>- optimizer (type, learning rate)
+>- training configuration (how many times to train discriminator per generator, epoch)
+>- else (save directory, device type)
 
