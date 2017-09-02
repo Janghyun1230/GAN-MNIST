@@ -25,3 +25,7 @@ generating mnist by GAN, lsGAN, wGAN, wGAN_GP
 >- training configuration (how many times to train discriminator per generator, epoch)
 >- else (save directory, device type)
 
+# output
+latent dim 2, batch size 126.  discriminator : conv(k:4, s:2, channel:64) - conv(k:4, s:2, channel:128) - fc(1024) - fc(1).  generator : fc(1024) - fc(4096) - transpose conv(k:4, s:2, channel:64) - transpose conv(k:4, s:2, channel:1)
+
+![Alt text](/image/latent_dim_2_batch_126_gan.png )
