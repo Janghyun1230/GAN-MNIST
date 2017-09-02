@@ -32,4 +32,4 @@ discriminator : conv(k:4, s:2, channel:64) - conv(k:4, s:2, channel:128) - fc(10
 
 generator : fc(1024) - fc(4096) - transpose conv(k:4, s:2, channel:64) - transpose conv(k:4, s:2, channel:1)
 
-![Alt text](/image/latent_dim_2_batch_126_gan.jpg)
+![Alt text](/images/latent_dim_2_batch_126_gan.jpg)
