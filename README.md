@@ -1,5 +1,5 @@
 # GAN with Mnist
-generating mnist by GAN, lsGAN, wGAN, wGAN_GP
+generating mnist by GAN, lsGAN, wGAN, wGAN_GP (I've integrated all of them)
 
 ### network.py
 >activation functions and network function which can draw tensorflow layers by input dictionary.  now, it can draw fullyconnected, conv2D, transpose conv2D with reshape, batch nomalization.
